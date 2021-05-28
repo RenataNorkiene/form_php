@@ -30,19 +30,19 @@
             </div>
         </div>
         <div class="form-group row">
-            <label for="inputPassword3" class="col-sm-2 col-form-label">Slaptažodis:*</label>
+            <label class="col-sm-2 col-form-label">Slaptažodis:*</label>
             <div class="col-sm-10">
                 <input type="password" class="form-control" name="password">
             </div>
         </div>
         <div class="form-group row">
-            <label for="inputPassword3" class="col-sm-2 col-form-label">Pakartoti slaptažodį:*</label>
+            <label class="col-sm-2 col-form-label">Pakartoti slaptažodį:*</label>
             <div class="col-sm-10">
                 <input type="password" class="form-control">
             </div>
         </div>
         <div class="form-check ">
-            <input class="form-check-input" type="checkbox" id="gridCheck1">
+            <input class="form-check-input" type="checkbox" id="gridCheck1" name="sutinkuSuTaisyklemis">
             <label class="form-check-label" for="gridCheck1">
                 Sutinku su <a href="url">taisyklemis</a>
             </label>
@@ -53,30 +53,30 @@
     <h2>Pasitikrinkite saskaitos adresą</h2>
 
         <div class="form-group row">
-            <label for="inputEmail3" class="col-sm-2 col-form-label">Lytis*</label>
-            <select class="custom-select col-sm-10" name="gender">
+            <label class="col-sm-2 col-form-label">Lytis*</label>
+            <select class="custom-select col-sm-10" name="lytis">
                 <option selected>Pasirinkite lytį</option>
-                <option value="1">Moteris</option>
-                <option value="2">Vyras</option>
+                <option name="moteris">Moteris</option>
+                <option name="vyras">Vyras</option>
             </select>
         </div>
         <div class="form-group row">
-            <label for="inputEmail3" class="col-sm-2 col-form-label">Vardas:*</label>
+            <label class="col-sm-2 col-form-label">Vardas:*</label>
             <div class="col-sm-10">
                 <input type="text" class="form-control" name="vardas">
             </div>
         </div>
         <div class="form-group row">
-            <label for="inputEmail3" class="col-sm-2 col-form-label">Pavardė:*</label>
+            <label class="col-sm-2 col-form-label">Pavardė:*</label>
             <div class="col-sm-10">
                 <input type="text" class="form-control" name="pavarde">
             </div>
         </div>
         <div class="form-row">
-        <label for="inputEmail3" class="col-sm-2 col-form-label">Gatvė, namo(buto) nr.:*</label>
+        <label class="col-sm-2 col-form-label">Gatvė, namo(buto) nr.:*</label>
             <div class="form-row">
                 <div class="col-7">
-                    <input type="text" class="form-control" name="street">
+                    <input type="text" class="form-control" name="gatve">
                 </div>
                 <div class="col">
                     <input type="text" class="form-control" name="butoNum">
@@ -85,10 +85,10 @@
         </div>
         <br>
         <div class="form-row align-items-center">
-        <label for="inputEmail3" class="col-sm-2 col-form-label">Pasto kodas:*</label>
+        <label class="col-sm-2 col-form-label">Pasto kodas:*</label>
             <div class="form-row">
                 <div class="col">
-                    <input type="text" class="form-control" name="postalcode">
+                    <input type="text" class="form-control" name="pastoKodas">
                 </div>
                 <div class="col">
                     <a href="url">Pasto kodo paieska</a>
@@ -97,34 +97,34 @@
         </div>
         <br>
         <div class="form-row align-items-center">
-            <label for="inputEmail3" class="col-sm-2 col-form-label">Miestas:*</label>
+            <label class="col-sm-2 col-form-label">Miestas:*</label>
             <div class="form-row">
                 <div class="col">
-                    <input type="text" class="form-control" name="city">
+                    <input type="text" class="form-control" name="miestas">
                 </div>
             </div>
         </div>
         <br>
         <div class="form-group row">
-            <label for="inputEmail3" class="col-sm-2 col-form-label">Šalis:*</label>
-            <select class="custom-select col-sm-10" name="selected">
+            <label class="col-sm-2 col-form-label">Šalis:*</label>
+            <select class="custom-select col-sm-10" name="salis">
                 <option selected>Pasirinkite Sali</option>
-                <option value="1">-</option>
-                <option value="2">Lietuva</option>
-                <option value="3">Latvija</option>
-                <option value="4">Estija</option>
-                <option value="5">Amerika</option>
+                <option name="-">-</option>
+                <option name="Lietuva">Lietuva</option>
+                <option name="Latvija">Latvija</option>
+                <option name="Estija">Estija</option>
+                <option name="Amerika">Amerika</option>
             </select>
         </div>
         <div class="form-group row">
-            <label for="inputEmail3" class="col-sm-2 col-form-label">Telefonas:*</label>
+            <label class="col-sm-2 col-form-label">Telefonas:*</label>
             <div class="col-sm-10">
-                <input type="text" class="form-control" name="phone">
+                <input type="text" class="form-control" name="Telefonas">
             </div>
         </div>
         <div class="form-group row">
-            <label for="exampleFormControlTextarea1" class="col-sm-2 col-form-label">Papildoma informacija</label>
-            <textarea name="text" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            <label class="col-sm-2 col-form-label">Papildoma informacija</label>
+            <textarea name="zinute" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
         </div>
 
         <p>Prašome užpildyti visus pažymėtus laukus*</p>
